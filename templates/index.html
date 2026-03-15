@@ -115,14 +115,12 @@
             <div class="card-grid">
                 <input type="radio" name="cat_name" id="cat1" value="감자">
                 <label for="cat1">
-                    <span class="emoji">🐱</span>
-                    <span>감자</span>
+                    <img src="{{ url_for('static', filename='potato.jpg') }}" alt="감자" style="width: 90%; height: auto;">
                 </label>
                 
                 <input type="radio" name="cat_name" id="cat2" value="우유">
                 <label for="cat2">
-                    <span class="emoji">🥛</span>
-                    <span>우유</span>
+                    <img src="{{ url_for('static', filename='milk.jpg') }}" alt="우유" style="width: 90%; height: auto;">
                 </label>
             </div>
         </div>
