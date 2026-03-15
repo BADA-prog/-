@@ -16,7 +16,7 @@ def init_db():
     conn.commit()
     conn.close()
 
-# 메인 화면 (기록 폼과 이전 기록 보여주기)
+
 @app.route('/')
 def index():
     conn = sqlite3.connect('cat_care.db')
